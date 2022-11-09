@@ -1,0 +1,81 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"28 C:\Users\gopik\Documents\Embedded\uart_pic.X\uart.c
+[v _Initialize_UART Initialize_UART `(v  1 e 1 0 ]
+"59
+[v _UART_send_char UART_send_char `(v  1 e 1 0 ]
+"82
+[v _UART_send_string UART_send_string `(v  1 e 1 0 ]
+"90
+[v _main main `(v  1 e 1 0 ]
+"1059 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"1066
+[v _RCREG RCREG `VEuc  1 e 1 @26 ]
+"1375
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"2080
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"2416
+[v _BRGH BRGH `VEb  1 e 0 @1218 ]
+"2515
+[v _CREN CREN `VEb  1 e 0 @196 ]
+"2614
+[v _OERR OERR `VEb  1 e 0 @193 ]
+"2677
+[v _RB1 RB1 `VEb  1 e 0 @49 ]
+"2743
+[v _RCIF RCIF `VEb  1 e 0 @101 ]
+"2794
+[v _RX9 RX9 `VEb  1 e 0 @198 ]
+"2812
+[v _SPEN SPEN `VEb  1 e 0 @199 ]
+"2842
+[v _SYNC SYNC `VEb  1 e 0 @1220 ]
+"2977
+[v _TRISC6 TRISC6 `VEb  1 e 0 @1086 ]
+"2980
+[v _TRISC7 TRISC7 `VEb  1 e 0 @1087 ]
+"3022
+[v _TX9 TX9 `VEb  1 e 0 @1222 ]
+"3031
+[v _TXEN TXEN `VEb  1 e 0 @1221 ]
+"3037
+[v _TXIF TXIF `VEb  1 e 0 @100 ]
+"90 C:\Users\gopik\Documents\Embedded\uart_pic.X\uart.c
+[v _main main `(v  1 e 1 0 ]
+{
+"107
+} 0
+"82
+[v _UART_send_string UART_send_string `(v  1 e 1 0 ]
+{
+[v UART_send_string@st_pt st_pt `*.24uc  1 a 1 wreg ]
+[v UART_send_string@st_pt st_pt `*.24uc  1 a 1 wreg ]
+[v UART_send_string@st_pt st_pt `*.24uc  1 a 1 2 ]
+"86
+} 0
+"59
+[v _UART_send_char UART_send_char `(v  1 e 1 0 ]
+{
+[v UART_send_char@bt bt `uc  1 a 1 wreg ]
+[v UART_send_char@bt bt `uc  1 a 1 wreg ]
+[v UART_send_char@bt bt `uc  1 a 1 0 ]
+"63
+} 0
+"28
+[v _Initialize_UART Initialize_UART `(v  1 e 1 0 ]
+{
+"55
+} 0
